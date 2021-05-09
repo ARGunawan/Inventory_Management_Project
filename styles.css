@@ -1,0 +1,26 @@
+.leftbox {
+	float:left; 
+	background:rgb(224, 142, 98);
+    padding: 1%;
+	width:48%;
+	height:700px;
+}
+.rightbox{
+	float:right;
+	background:rgb(192, 109, 151);
+    padding: 1%;
+	width:48%;
+	height:700px;
+}
+
+body{
+    background-color: black;
+}
+
+.white-text{
+    color: white;
+}
+
+.center{
+    text-align: center;
+} 
