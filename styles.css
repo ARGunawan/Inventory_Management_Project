@@ -15,6 +15,7 @@
 
 body{
     background-color: black;
+	font-family: sans-serif;
 }
 
 .white-text{
@@ -24,3 +25,19 @@ body{
 .center{
     text-align: center;
 } 
+
+th {
+    border: 1px solid #000000; 
+    color: white;
+    background-color: black; 
+    vertical-align: baseline;
+}
+
+td{
+    border: 1px solid #000000; 
+    width: 150px;
+    padding: 3px;
+    vertical-align: baseline;
+    text-align: center;
+	color: white;
+}

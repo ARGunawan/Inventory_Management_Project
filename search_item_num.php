@@ -9,7 +9,7 @@
     
     echo "<h2> Search inventory with item num $search_item_num </h2>";
     //select statement
-    $sql = "select A.i_num, A.i_name, B.qty, A.max_qty, B.i_dlvry, C.i_rating, C.i_dmnd,
+    $sql = "SELECT A.i_num, A.i_name, B.qty, A.max_qty, B.i_dlvry, C.i_rating, C.i_dmnd,
     A.i_price, A.i_type, A.str from proj_item A JOIN proj_quantity B on A.i_num = B.i_num 
     AND A.str = B.str JOIN proj_rating C on A.i_num = C.i_num AND A.str = C.str where A.i_num = $search_item_num ";
     $result = $mysqli->query($sql); //hold in result

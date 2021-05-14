@@ -7,7 +7,8 @@
     
     echo "<h2> All stores in our inventory </h2>";
     //select statement
-    $sql = "SELECT * from proj_store ";
+    $sql = "SELECT A.str, B.city, A.zipcode, B.street, B.addr, B.state from proj_str A NATURAL JOIN proj_str_locate B ";
+    
     $result = $mysqli->query($sql); //hold in result
 
     echo "<a href = 'index.php'> Return to main page </a>";
